@@ -54,18 +54,7 @@ Not perfect, but solid for a first stab using basic features.
 - A fantasy match simulator
 - Real-time predictor using live data
 - Add wrestler stats, win streaks, venues, and crowd size
-- Deploy as a Streamlit app or Discord bot
 
----
-
-## 🗂️ Key Files
-
-- `scrape_wwe_events.py` — uses LLMs to turn HTML into gold
-- `clean_and_merge.py` — preps and encodes data
-- `train_model.py` — Random Forest training
-- `wwe_ml_cleaned.csv` — your ready-to-train dataset
-
----
 
 ## 💬 Final Word
 
