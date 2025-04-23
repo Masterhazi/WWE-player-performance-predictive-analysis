@@ -1,6 +1,6 @@
 # 🤼 WWE Match Outcome Predictor
 
-> Bringing AI to the squared circle — because wrestling analytics just got a whole lot smarter.
+> Bringing AI to the squared circle — because wrestling analytics just got a whole lot smarter, and lemme know if you catch the COD reference ;-)
 
 ---
 
