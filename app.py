@@ -649,13 +649,13 @@ year = int(number)
 import pickle 
 
 
-scaler_path = r"C:\Users\hajia\Downloads\WWE project\scaler.pkl"
-transformer_path = r"C:\Users\hajia\Downloads\WWE project\transformer.pkl"
-model_path = r"C:\Users\hajia\Downloads\WWE project\rf_best_model.pkl"
+scaler_path = r'scaler.pkl'
+transformer_path = r"transformer.pkl"
+model_path = r"rf_best_model.pkl"
 
-pl_encoding_path = r"C:\Users\hajia\Downloads\WWE project\pl_encoding.pkl"
-event_encoding_path = r"C:\Users\hajia\Downloads\WWE project\event_encoding.pkl"
-title_encoding_path = r"C:\Users\hajia\Downloads\WWE project\title_encoding.pkl"
+pl_encoding_path = r"pl_encoding.pkl"
+event_encoding_path = r"event_encoding.pkl"
+title_encoding_path = r"title_encoding.pkl"
 
 with open(pl_encoding_path, 'rb') as file:
     pl_encoding = pickle.load(file)
@@ -735,7 +735,7 @@ def plot_confidence_with_images(probs, player_1, player_2):
     img_url_1 = f"https://www.thesmackdownhotel.com/images/wrestling/wrestlers/full-body/{player_1.replace(' ', '-').lower()}.png"
     img_url_2 = f"https://www.thesmackdownhotel.com/images/wrestling/wrestlers/full-body/{player_2.replace(' ', '-').lower()}.png"
     
-    default_image = "https://photos.fife.usercontent.google.com/pw/AP1GczPI7jD9rBIURvq3TEEL8_QG165c8oedV2DYqNhFaunjLoLkN9BgZhzHlQ=w1017-h1807-s-no?authuser=0"
+    default_image = "https://fanatics.frgimages.com/john-cena-and-cody-rhodes-wwe-unsigned-2025-elimination-chamber-hug-photograph_ss5_p-202975932+u-wwvtfsnodave4ij2zv5n+v-0eih00sbu919pgfzp5bs.jpg?_hv=2&w=900"
 
 
     try:
